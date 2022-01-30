@@ -8,9 +8,10 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
-/* Screen */
+/* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   color: #2f3338;
