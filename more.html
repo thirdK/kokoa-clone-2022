@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - KokoaClone</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <!-- BEM -->
+        <span>No Service</span>
+        <!-- Wifi Icon -->
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <!-- Battery Icon-->
+        <i class="fas fa-battery-full fa-2x"></i>
+        <!-- Lightning Icon-->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <span>
+          <i class="fas fa-search fa-lg"></i>
+        </span>
+        <span>
+          <i class="fas fa-music fa-lg"></i>
+        </span>
+        <span>
+          <div class="nav__new"></div>
+          <i class="fas fa-cog fa-lg"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2F20110411_116%2Fleemy999_13025320660795wVmq_jpg%2Fkmplayer_2011-04-11_23-26-12-921_leemy999.jpg&type=sc960_832"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">TaeJong</h4>
+            <div class="user-component__sub">
+              <h6 class="user-component__subtitle">+ 787 612 123</h6>
+              <div class="user-component__icon">
+                <i class="fas fa-exclamation-circle"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-calendar"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-smile-beam"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-roller"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-file-invoice-dollar"></i>
+          <span>Account</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span class="more-suggestions__icon-text">Kokoa Story</span>
+          </div>
+          <!-- 동일한 아이콘 사용함 -->
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span class="more-suggestions__icon-text">Kokoa Story</span>
+          </div>
+          <!-- 여기까지 -->
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__new"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
