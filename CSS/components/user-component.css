@@ -51,3 +51,14 @@
   margin-bottom: 5px;
   display: block;
 }
+
+.user-component__sub {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 3px;
+}
+
+.user-component__icon {
+  color: rgba(255, 0, 0, 0.7);
+  margin-left: 5px;
+}
