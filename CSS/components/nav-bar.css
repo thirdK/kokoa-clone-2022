@@ -18,10 +18,23 @@
   color: #2f3338;
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(20deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav__notification {
   position: absolute;
   left: 17px;
   bottom: 17px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__new {
@@ -31,4 +44,31 @@
   border-radius: 50%;
   position: absolute;
   right: -4px;
+}
+
+@keyframes appearBtnAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.nav__btn {
+  transform: translateY(50px);
+  opacity: 0;
+  animation: appearBtnAnimation 0.4s ease-in-out forwards;
+}
+
+.nav__btn:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.nav__btn:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.nav__btn:last-child {
+  animation-delay: 0.3s;
 }
